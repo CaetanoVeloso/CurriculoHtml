@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+
+#ddddda #39a173 #484e4e #94d4bc 
+
+* {
+    font-family: 'Open Sans';
+    color: var(--principal);
+}
+
+body {
+    background-image: url('imgs');
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div#conteudo {
+    background-color: white;
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    padding: 1em;
+}
+
+h1 {
+    color: white;
+    background-color: var(--principal);
+    text-align: center;
+}
+
+h2 {
+    padding: .25em 1em;
+    border-top: var(--cor4) 10px solid;
+    border-bottom: var(--cor4) 10px solid;
+    border-left: var(--cor4) thin solid;
+    border-right: var(--cor4) thin solid;
+}
+
+header,
+footer {
+    background-color: #39a173;
+    padding: 2em;
+}
+
+header {
+    margin: 0 0 4em 0;
+}
+
+footer {
+    margin: 4em 0 0 0;
+}
+
+header h2,
+header h2 em,
+footer p {
+    color: var(--cor2-claro);
+    text-align: center;
+    text-indent: 0;
+    border: none;
+}
+
+p {
+    text-indent: 2em;
+}
+
+p#foto {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    border-width: medium;
+    border-color: #39a173;
+
+}
+
+a:hover {
+    color: var(--cor3-claro-medio);
+    background-color: var(--cor3);
+}
+
+table {
+    width: 0;
+    margin: 0 auto;
+    border: #484e4e solid thin;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #39a173;
+}
+
+th {
+    color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #94d4bc;
+}
+
+th,
+td {
+    text-align: center;
+    padding: .05em 1em;
+}
+
+tbody tr:hover td {
+    color: var(--cor2-claro);
+    background-color: var(--cor2);
+}
