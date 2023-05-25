@@ -9,13 +9,13 @@
 }
 
 body {
-    background-image: url('imgs');
+    background-image: url('imgs/bg.jpg');
     background-attachment: fixed;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-div#conteudo {
+main {
     background-color: white;
     width: calc(100% - 100px);
     margin: 0 auto;
@@ -53,7 +53,7 @@ footer {
 header h2,
 header h2 em,
 footer p {
-    color: var(--cor2-claro);
+    color: #94d4bc;
     text-align: center;
     text-indent: 0;
     border: none;
@@ -70,7 +70,7 @@ p#foto {
 img {
     border-radius: 50%;
     border-width: medium;
-    border-color: #39a173;
+    border: #39a173;
 
 }
 
@@ -105,6 +105,6 @@ td {
 }
 
 tbody tr:hover td {
-    color: var(--cor2-claro);
-    background-color: var(--cor2);
+    color: #94d4bc;
+    background-color: #39a173;
 }
