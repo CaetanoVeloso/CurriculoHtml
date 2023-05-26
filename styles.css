@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
-
-#ddddda #39a173 #484e4e #94d4bc 
-
 * {
     font-family: 'Open Sans';
     color: var(--principal);
@@ -15,7 +12,7 @@ body {
     margin-bottom: 0;
 }
 
-main {
+div#info {
     background-color: white;
     width: calc(100% - 100px);
     margin: 0 auto;
@@ -24,21 +21,13 @@ main {
 
 h1 {
     color: white;
-    background-color: var(--principal);
+    background-color: #39a173;
     text-align: center;
-}
-
-h2 {
-    padding: .25em 1em;
-    border-top: var(--cor4) 10px solid;
-    border-bottom: var(--cor4) 10px solid;
-    border-left: var(--cor4) thin solid;
-    border-right: var(--cor4) thin solid;
 }
 
 header,
 footer {
-    background-color: #39a173;
+    background-color: #484e4e;
     padding: 2em;
 }
 
@@ -50,10 +39,11 @@ footer {
     margin: 4em 0 0 0;
 }
 
-header h2,
-header h2 em,
+header h1,
+header h1 em,
 footer p {
     color: #94d4bc;
+    background-color: #484e4e;
     text-align: center;
     text-indent: 0;
     border: none;
@@ -69,14 +59,12 @@ p#foto {
 
 img {
     border-radius: 50%;
-    border-width: medium;
-    border: #39a173;
-
+    border: 8px solid #39a173;
 }
 
 a:hover {
-    color: var(--cor3-claro-medio);
-    background-color: var(--cor3);
+    color: #484e4e;
+    background-color: #94d4bc;
 }
 
 table {
@@ -87,11 +75,11 @@ table {
 }
 
 thead {
-    background-color: #39a173;
+    background-color: #484e4e;
 }
 
 th {
-    color: black;
+    color: #94d4bc;
 }
 
 tbody tr:nth-child(odd) {
@@ -106,5 +94,5 @@ td {
 
 tbody tr:hover td {
     color: #94d4bc;
-    background-color: #39a173;
+    background-color: #484e4e;
 }
